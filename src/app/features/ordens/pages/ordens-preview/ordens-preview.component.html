@@ -1,0 +1,20 @@
+<app-big-card title="Últimas Ordens de Serviço">
+  <table class="ordens-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Cliente</th>
+        <th>Status</th>
+        <th>Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ordem of ordens">
+        <td>{{ ordem.id }}</td>
+        <td>{{ ordem.cliente }}</td>
+        <td>{{ ordem.status }}</td>
+        <td>{{ ordem.data }}</td>
+      </tr>
+    </tbody>
+  </table>
+</app-big-card>

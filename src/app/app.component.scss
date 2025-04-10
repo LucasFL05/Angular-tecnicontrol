@@ -1,0 +1,15 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 240px;
+}
+
+.main-content {
+  margin-left: 240px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #FBF8EF;
+  padding: 1rem;
+}

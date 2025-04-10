@@ -1,0 +1,21 @@
+.ordens-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 0.95rem;
+  }
+
+  th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: 600;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
